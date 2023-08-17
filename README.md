@@ -1,4 +1,4 @@
-# photo_album
+# lt-tech-showcase
 
 ## Project setup
 ```
