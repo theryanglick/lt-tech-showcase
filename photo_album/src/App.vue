@@ -10,17 +10,13 @@
   text-align: center;
   color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
+.photo-container {
+  margin-top: 1rem;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.photo-container p {
+  font-size: .875rem;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.photo-container img {
+  cursor: pointer;
 }
 </style>

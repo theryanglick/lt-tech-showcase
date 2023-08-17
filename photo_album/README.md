@@ -15,5 +15,15 @@ npm run serve
 npm run build
 ```
 
+### Compiles and runs locally
+```
+npm run start
+```
+
+### Runs the units tests
+```
+npm run test:unit
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -5,11 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start": "vue-cli-service serve --mode local --open"
+    "start": "vue-cli-service serve --mode local --open",
+    "test:unit": "jest"
   },
   "dependencies": {
     "axios": "^1.4.0",
     "core-js": "^3.6.5",
+    "tiny-emitter": "^2.1.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
@@ -17,7 +19,11 @@
     "@vue/cli-plugin-babel": "~4.5.13",
     "@vue/cli-plugin-router": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/test-utils": "^2.4.1",
+    "axios-mock-adapter": "^1.21.5",
+    "jest": "^26.6.3",
+    "vue-jest": "^5.0.0-alpha.10"
   },
   "browserslist": [
     "> 1%",

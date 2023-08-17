@@ -14,7 +14,7 @@ export default function photoService() {
     try {
       return await client.get(`/photos?id=${id}`);
     } catch (error) {
-      console.log(error);
+      // Log error here
     }
   }
 

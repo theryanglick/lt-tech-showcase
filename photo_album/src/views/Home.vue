@@ -5,7 +5,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import PhotoBrowser from '@/components/PhotoBrowser.vue'
 
 export default {
@@ -15,3 +14,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.home {
+  padding-top: 25px;
+}
+</style>
